@@ -1,0 +1,21 @@
+{
+  "name": "stborchert/gpx_splitter",
+  "description": "Split gpx files on a per-track base.",
+  "type": "project",
+  "license": "GPL-2.0+",
+  "require": {
+    "php": ">=5.5.9",
+    "symfony/css-selector": "3.*",
+    "symfony/dom-crawler": "3.*"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "gpx_splitter\\core\\": "lib/gpx_splitter/core/"
+    },
+    "classmap": [
+      "lib/gpx_splitter/core/GpxSplitter.php"
+    ]
+  }
+}

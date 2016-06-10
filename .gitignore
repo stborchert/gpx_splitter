@@ -1,0 +1,16 @@
+/vendor
+# Ignore temporary files.
+/tmp
+# Ignore other files.
+.DS_Store*
+Thumbs.db
+ehthumbs.db
+.svn
+*.komodoproject
+*.komodotools
+.project
+.buildpath
+*.esproj
+.idea
+/nbproject
+
